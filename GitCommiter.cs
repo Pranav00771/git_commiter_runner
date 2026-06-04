@@ -12,7 +12,7 @@ namespace GitCommiter
         private System.Windows.Forms.Label lab_r, lab_f;
         private System.Windows.Forms.TextBox text_r, text_f, text_u;
         private ButtonIDE commit_btn, clear_btn;
-        private System.Windows.Forms.ToolTip tooltip;
+        
 
         private void InitGitCommiter()
         {
@@ -149,11 +149,6 @@ namespace GitCommiter
             this.commit_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.commit_btn.Click += new System.EventHandler(commit_btn_Click);
             this.commit_btn.Visible = true;
-
-            this.tooltip = new System.Windows.Forms.ToolTip();
-            this.tooltip.BackColor = System.Drawing.Color.FromArgb(29, 29, 29);
-            this.tooltip.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
-            this.tooltip.SetToolTip(this.dev, "The war is at other side but the society is literally making fun of this guy specially some girls who already have a boyfriend and their lovers calling us a copilot or all bosses funny guys last things to take strict action againts especailly their boyfriends. Help us support us.");
 
 
             this.Controls.Add(this.close);
